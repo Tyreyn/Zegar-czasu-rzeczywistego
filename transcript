@@ -1,0 +1,214 @@
+# Project file C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/cyk.mpf was not found.
+# Unable to open project.
+# Loading project zegar
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.dzielnik_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim 
+# Start time: 11:59:07 on Apr 22,2020
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+add wave -position insertpoint  \
+sim:/dzielnik_tb/clk_i \
+sim:/dzielnik_tb/rst_i \
+sim:/dzielnik_tb/button_test_i \
+sim:/dzielnik_tb/div_clk
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+run
+restart -f
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+restart
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+restart
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+run
+run
