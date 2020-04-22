@@ -1,1 +1,36 @@
+{C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v} {1 {vlog -work work -stats=none {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dzielnik
 
+Top level modules:
+	dzielnik
+
+} {} {}} {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v} {1 {vlog -work work -stats=none {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module odliczanie
+
+Top level modules:
+	odliczanie
+
+} {} {}} {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v} {1 {vlog -work work -stats=none {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dzielnik_tb
+
+Top level modules:
+	dzielnik_tb
+
+} {} {}} {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v} {1 {vlog -work work -stats=none {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module odliczanie_tb
+
+Top level modules:
+	odliczanie_tb
+
+} {} {}} {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v} {1 {vlog -work work -stats=none {C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module wyswietl
+
+Top level modules:
+	wyswietl
+
+} {} {}}

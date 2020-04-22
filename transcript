@@ -212,3 +212,1456 @@ restart
 # Loading work.dzielnik
 run
 run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 3 errors.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.odliczanie_tb
+# vsim 
+# Start time: 15:06:08 on Apr 22,2020
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+add wave -position insertpoint  \
+sim:/odliczanie_tb/clk_i \
+sim:/odliczanie_tb/button_hr_i \
+sim:/odliczanie_tb/button_min_i \
+sim:/odliczanie_tb/div_clk \
+sim:/odliczanie_tb/hr_o \
+sim:/odliczanie_tb/min_o
+run
+run
+run
+restart
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(4): [PCDPC] - Port size (6) does not match connection size (1) for port 'hr_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(4): [PCDPC] - Port size (6) does not match connection size (1) for port 'min_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+quit -sim
+vsim work.dzielnik_tb
+# vsim 
+# Start time: 15:09:13 on Apr 22,2020
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+quit -sim
+vsim work.odliczanie_tb
+# vsim 
+# Start time: 15:09:32 on Apr 22,2020
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(4): [PCDPC] - Port size (6) does not match connection size (1) for port 'hr_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(4): [PCDPC] - Port size (6) does not match connection size (1) for port 'min_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+add wave -position insertpoint  \
+sim:/odliczanie_tb/clk_i \
+sim:/odliczanie_tb/button_hr_i \
+sim:/odliczanie_tb/button_min_i \
+sim:/odliczanie_tb/div_clk \
+sim:/odliczanie_tb/hr_o \
+sim:/odliczanie_tb/min_o
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v failed with 3 errors.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+restart
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+run
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 1 errors.
+# 5 compiles, 2 failed with 2 errors.
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 1 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 1 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Too few port connections. Expected 8, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Error: (vsim-3063) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): Port 'hr_o' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Error: (vsim-3063) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): Port 'min_o' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'hr1_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'hr2_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'min1_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'min2_o'.
+vsim work.odliczanie_tb
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Too few port connections. Expected 8, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Error: (vsim-3063) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): Port 'hr_o' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Error: (vsim-3063) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): Port 'min_o' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'hr1_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'hr2_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'min1_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'min2_o'.
+# Error loading design
+vsim work.dzielnik_tb
+# vsim 
+# Start time: 20:07:24 on Apr 22,2020
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(36): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(36): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/clk_i'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/button_hr_i'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/button_min_i'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/div_clk'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/hr_o'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/min_o'. 
+vsim work.odliczanie_tb
+# vsim 
+# Start time: 20:07:41 on Apr 22,2020
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Too few port connections. Expected 8, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Error: (vsim-3063) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): Port 'hr_o' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Error: (vsim-3063) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): Port 'min_o' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'hr1_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'hr2_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'min1_o'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [TFMPC] - Missing connection for port 'min2_o'.
+# Error loading design
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.odliczanie_tb
+# vsim 
+# Start time: 20:08:37 on Apr 22,2020
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [PCDPC] - Port size (2) does not match connection size (1) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [PCDPC] - Port size (4) does not match connection size (1) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [PCDPC] - Port size (4) does not match connection size (1) for port 'min1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(7): [PCDPC] - Port size (4) does not match connection size (1) for port 'min2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+add wave -position insertpoint  \
+sim:/odliczanie_tb/clk_i \
+sim:/odliczanie_tb/button_hr_i \
+sim:/odliczanie_tb/button_min_i \
+sim:/odliczanie_tb/div_clk \
+sim:/odliczanie_tb/hr1_o \
+sim:/odliczanie_tb/hr2_o \
+sim:/odliczanie_tb/min1_o \
+sim:/odliczanie_tb/min2_o \
+sim:/odliczanie_tb/hr_o \
+sim:/odliczanie_tb/min_o
+restart
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (2) does not match connection size (1) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'min1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'min2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 1 errors.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+restart
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v failed with 4 errors.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 4 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (2) does not match connection size (1) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'min1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'min2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/hr_o'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/odliczanie_tb/min_o'. 
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+run
+vsim work.dzielnik_tb
+# vsim 
+# Start time: 20:17:55 on Apr 22,2020
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+restart
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+add wave -position insertpoint  \
+sim:/dzielnik_tb/UUT/N_norm \
+sim:/dzielnik_tb/UUT/N_fast \
+sim:/dzielnik_tb/UUT/clk_i \
+sim:/dzielnik_tb/UUT/rst_i \
+sim:/dzielnik_tb/UUT/button_test_i \
+sim:/dzielnik_tb/UUT/button_hr_i \
+sim:/dzielnik_tb/UUT/button_min_i \
+sim:/dzielnik_tb/UUT/div_clk \
+sim:/dzielnik_tb/UUT/min1 \
+sim:/dzielnik_tb/UUT/min2 \
+sim:/dzielnik_tb/UUT/hr1 \
+sim:/dzielnik_tb/UUT/hr2 \
+sim:/dzielnik_tb/UUT/licznik \
+sim:/dzielnik_tb/UUT/DIV
+restart
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(37): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(38): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+run
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+vsim work.odliczanie_tb
+# vsim 
+# Start time: 20:21:39 on Apr 22,2020
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie_tb.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /odliczanie_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+add wave -position insertpoint  \
+sim:/odliczanie_tb/clk_i \
+sim:/odliczanie_tb/button_hr_i \
+sim:/odliczanie_tb/button_min_i \
+sim:/odliczanie_tb/div_clk \
+sim:/odliczanie_tb/hr \
+sim:/odliczanie_tb/min \
+sim:/odliczanie_tb/hr1_o \
+sim:/odliczanie_tb/hr2_o \
+sim:/odliczanie_tb/min1_o \
+sim:/odliczanie_tb/min2_o
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.odliczanie_tb
+# Loading work.odliczanie
+run
+run
+run
+vsim work.dzielnik_tb
+# vsim 
+# Start time: 20:27:53 on Apr 22,2020
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+add wave -position end  sim:/dzielnik_tb/div_clk
+add wave -position end  sim:/dzielnik_tb/button_test_i
+add wave -position end  sim:/dzielnik_tb/rst_i
+add wave -position end  sim:/dzielnik_tb/clk_i
+add wave -position insertpoint  \
+sim:/dzielnik_tb/UUT/od_1/button_hr_i \
+sim:/dzielnik_tb/UUT/od_1/button_min_i \
+sim:/dzielnik_tb/UUT/od_1/clk_i \
+sim:/dzielnik_tb/UUT/od_1/div_clk \
+sim:/dzielnik_tb/UUT/od_1/hr1_o \
+sim:/dzielnik_tb/UUT/od_1/hr2_o \
+sim:/dzielnik_tb/UUT/od_1/min1_o \
+sim:/dzielnik_tb/UUT/od_1/min2_o \
+sim:/dzielnik_tb/UUT/od_1/sec \
+sim:/dzielnik_tb/UUT/od_1/hr \
+sim:/dzielnik_tb/UUT/od_1/min \
+sim:/dzielnik_tb/UUT/od_1/licznik
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3017) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_hr_i'.
+# ** Warning: (vsim-3722) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [TFMPC] - Missing connection for port 'button_min_i'.
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+add wave -position end  sim:/dzielnik_tb/button_hr_i
+add wave -position end  sim:/dzielnik_tb/button_min_i
+restart
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(40): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (1) does not match connection size (2) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(41): [PCDPC] - Port size (8) does not match connection size (4) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 2 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 1 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 16 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 16 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 16 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 16 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 16 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 16 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 5 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 5 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 2 failed with 6 errors.
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 5 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 2 failed with 6 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 6 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 6 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 5 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 16 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 16 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 16 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 16 errors.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [PCDPC] - Port size (8) does not match connection size (1) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [PCDPC] - Port size (8) does not match connection size (1) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+add wave -position end  sim:/dzielnik_tb/led7_seg_o
+add wave -position end  sim:/dzielnik_tb/led7_an_o
+restart
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [PCDPC] - Port size (8) does not match connection size (1) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [PCDPC] - Port size (8) does not match connection size (1) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [PCDPC] - Port size (8) does not match connection size (1) for port 'led7_seg_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(5): [PCDPC] - Port size (8) does not match connection size (1) for port 'led7_an_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+add wave -position end  sim:/dzielnik_tb/led7_an_o
+add wave -position end  sim:/dzielnik_tb/led7_seg_o
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v failed with 1 errors.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Error (suppressible): (vsim-3053) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(6): Illegal output or inout port connection for port 'led7_seg_o'.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Error (suppressible): (vsim-3053) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(6): Illegal output or inout port connection for port 'led7_an_o'.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+vsim work.dzielnik_tb
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Error (suppressible): (vsim-3053) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(6): Illegal output or inout port connection for port 'led7_seg_o'.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Error (suppressible): (vsim-3053) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik_tb.v(6): Illegal output or inout port connection for port 'led7_an_o'.
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# Error loading design
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.dzielnik_tb
+# vsim 
+# Start time: 21:32:13 on Apr 22,2020
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+add wave -position insertpoint  \
+sim:/dzielnik_tb/UUT/N_norm \
+sim:/dzielnik_tb/UUT/N_fast \
+sim:/dzielnik_tb/UUT/clk_i \
+sim:/dzielnik_tb/UUT/rst_i \
+sim:/dzielnik_tb/UUT/button_test_i \
+sim:/dzielnik_tb/UUT/button_hr_i \
+sim:/dzielnik_tb/UUT/button_min_i \
+sim:/dzielnik_tb/UUT/div_clk \
+sim:/dzielnik_tb/UUT/led7_seg_o \
+sim:/dzielnik_tb/UUT/led7_an_o \
+sim:/dzielnik_tb/UUT/min1 \
+sim:/dzielnik_tb/UUT/min2 \
+sim:/dzielnik_tb/UUT/hr1 \
+sim:/dzielnik_tb/UUT/hr2 \
+sim:/dzielnik_tb/UUT/an_o \
+sim:/dzielnik_tb/UUT/seg_o \
+sim:/dzielnik_tb/UUT/hr2_o \
+sim:/dzielnik_tb/UUT/hr1_o \
+sim:/dzielnik_tb/UUT/min1_o \
+sim:/dzielnik_tb/UUT/min2_o \
+sim:/dzielnik_tb/UUT/licznik \
+sim:/dzielnik_tb/UUT/DIV
+restart
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v failed with 1 errors.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v failed with 1 errors.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+run
+run
+run -continue
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
+run
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# Compile of dzielnik.v failed with 2 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v failed with 2 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v failed with 2 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of dzielnik.v failed with 1 errors.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'odswiezanie'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+# Compile of dzielnik.v was successful.
+# Compile of dzielnik_tb.v was successful.
+# Compile of odliczanie.v was successful.
+# Compile of odliczanie_tb.v was successful.
+# Compile of wyswietl.v was successful.
+# Compile of wyswietl_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.dzielnik_tb
+# Loading work.dzielnik
+# Loading work.odliczanie
+# Loading work.wyswietl
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (2) does not match connection size (4) for port 'hr1_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(43): [PCDPC] - Port size (4) does not match connection size (2) for port 'hr2_o'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/od_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/odliczanie.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'hr1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'hr2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min1'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+# ** Warning: (vsim-3015) C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/dzielnik.v(44): [PCDPC] - Port size (1) does not match connection size (4) for port 'min2'. The port definition is at: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /dzielnik_tb/UUT/wy_1 File: C:/Users/athos/Documents/VS code/Verilog/Zegar-czasu-rzeczywistego/wyswietl.v
+run
+run
+run
