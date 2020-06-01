@@ -1,9 +1,9 @@
-module wyswietl (input clk_i,
-                 input hr1,
-                 input hr2,
-                 input min1,
-                 input min2,
-                 input reg [1:0]odswiezanie,
+module wyswietl (input [3:0]hr1,
+                 input [1:0]hr2,
+                 input [3:0]min1,
+                 input [3:0]min2,
+                 input [1:0]odswiezanie,
+                 input kropka,
                  output reg [7:0] seg_o,
                  output reg [7:0] an_o
                  );
@@ -12,23 +12,24 @@ module wyswietl (input clk_i,
     begin
         case(odswiezanie)
         2'b00: begin
-            an_o = 8'b00000111; 
+            an_o = 8'b11110111; 
             LED_KONW = hr2;
             end
         2'b01: begin
-            an_o = 8'b00001011; 
+            an_o = 8'b11111011; 
             LED_KONW = hr1;
             end
         2'b10: begin
-            an_o = 8'b00001101; 
+            an_o = 8'b11111101; 
             LED_KONW = min2;
             end
         2'b11: begin
-            an_o = 8'b00001110; 
+            an_o = 8'b11111110; 
             LED_KONW = min1;
+            seg_o[7] = kropka;
             end   
         default:begin
-            an_o = 8'b00000111; 
+            an_o = 8'b11110111; 
             LED_KONW = hr2;
             end
         endcase
